@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7BD1B92B3CB42300E474C3 /* WatchTrumpTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B7BD1B82B3CB42300E474C3 /* WatchTrumpTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B7BD1BE2B3CB42300E474C3 /* WatchTrumpTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BD1BD2B3CB42300E474C3 /* WatchTrumpTrackerApp.swift */; };
+		0B7BD1C02B3CB42300E474C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BD1BF2B3CB42300E474C3 /* ContentView.swift */; };
+		0B7BD1C22B3CB42600E474C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BD1C12B3CB42600E474C3 /* Assets.xcassets */; };
+		0B7BD1C52B3CB42600E474C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BD1C42B3CB42600E474C3 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B7BD1BA2B3CB42300E474C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7BD1AC2B3CB42300E474C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B7BD1B72B3CB42300E474C3;
+			remoteInfo = "WatchTrumpTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B7BD1CB2B3CB42600E474C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B7BD1B92B3CB42300E474C3 /* WatchTrumpTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B7BD1B22B3CB42300E474C3 /* WatchTrumpTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTrumpTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7BD1B82B3CB42300E474C3 /* WatchTrumpTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchTrumpTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7BD1BD2B3CB42300E474C3 /* WatchTrumpTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTrumpTrackerApp.swift; sourceTree = "<group>"; };
+		0B7BD1BF2B3CB42300E474C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B7BD1C12B3CB42600E474C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B7BD1C42B3CB42600E474C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B7BD1B52B3CB42300E474C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7BD1AB2B3CB42300E474C3 = {
+			isa = PBXGroup;
+			children = (
+				0B7BD1BC2B3CB42300E474C3 /* WatchTrumpTracker Watch App */,
+				0B7BD1B32B3CB42300E474C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B7BD1B32B3CB42300E474C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BD1B22B3CB42300E474C3 /* WatchTrumpTracker.app */,
+				0B7BD1B82B3CB42300E474C3 /* WatchTrumpTracker Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B7BD1BC2B3CB42300E474C3 /* WatchTrumpTracker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BD1BD2B3CB42300E474C3 /* WatchTrumpTrackerApp.swift */,
+				0B7BD1BF2B3CB42300E474C3 /* ContentView.swift */,
+				0B7BD1C12B3CB42600E474C3 /* Assets.xcassets */,
+				0B7BD1C32B3CB42600E474C3 /* Preview Content */,
+			);
+			path = "WatchTrumpTracker Watch App";
+			sourceTree = "<group>";
+		};
+		0B7BD1C32B3CB42600E474C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BD1C42B3CB42600E474C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B7BD1B12B3CB42300E474C3 /* WatchTrumpTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7BD1CC2B3CB42600E474C3 /* Build configuration list for PBXNativeTarget "WatchTrumpTracker" */;
+			buildPhases = (
+				0B7BD1B02B3CB42300E474C3 /* Resources */,
+				0B7BD1CB2B3CB42600E474C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B7BD1BB2B3CB42300E474C3 /* PBXTargetDependency */,
+			);
+			name = WatchTrumpTracker;
+			productName = WatchTrumpTracker;
+			productReference = 0B7BD1B22B3CB42300E474C3 /* WatchTrumpTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0B7BD1B72B3CB42300E474C3 /* WatchTrumpTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7BD1C82B3CB42600E474C3 /* Build configuration list for PBXNativeTarget "WatchTrumpTracker Watch App" */;
+			buildPhases = (
+				0B7BD1B42B3CB42300E474C3 /* Sources */,
+				0B7BD1B52B3CB42300E474C3 /* Frameworks */,
+				0B7BD1B62B3CB42300E474C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchTrumpTracker Watch App";
+			productName = "WatchTrumpTracker Watch App";
+			productReference = 0B7BD1B82B3CB42300E474C3 /* WatchTrumpTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B7BD1AC2B3CB42300E474C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0B7BD1B12B3CB42300E474C3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					0B7BD1B72B3CB42300E474C3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B7BD1AF2B3CB42300E474C3 /* Build configuration list for PBXProject "WatchTrumpTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B7BD1AB2B3CB42300E474C3;
+			productRefGroup = 0B7BD1B32B3CB42300E474C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B7BD1B12B3CB42300E474C3 /* WatchTrumpTracker */,
+				0B7BD1B72B3CB42300E474C3 /* WatchTrumpTracker Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7BD1B02B3CB42300E474C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7BD1B62B3CB42300E474C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7BD1C52B3CB42600E474C3 /* Preview Assets.xcassets in Resources */,
+				0B7BD1C22B3CB42600E474C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7BD1B42B3CB42300E474C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7BD1C02B3CB42300E474C3 /* ContentView.swift in Sources */,
+				0B7BD1BE2B3CB42300E474C3 /* WatchTrumpTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B7BD1BB2B3CB42300E474C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B7BD1B72B3CB42300E474C3 /* WatchTrumpTracker Watch App */;
+			targetProxy = 0B7BD1BA2B3CB42300E474C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B7BD1C62B3CB42600E474C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B7BD1C72B3CB42600E474C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0B7BD1C92B3CB42600E474C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTrumpTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YZ8ZVD6D26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrumpTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallace.WatchTrumpTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		0B7BD1CA2B3CB42600E474C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTrumpTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YZ8ZVD6D26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrumpTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallace.WatchTrumpTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		0B7BD1CD2B3CB42600E474C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ8ZVD6D26;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrumpTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallace.WatchTrumpTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0B7BD1CE2B3CB42600E474C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ8ZVD6D26;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrumpTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallace.WatchTrumpTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7BD1AF2B3CB42300E474C3 /* Build configuration list for PBXProject "WatchTrumpTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7BD1C62B3CB42600E474C3 /* Debug */,
+				0B7BD1C72B3CB42600E474C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7BD1C82B3CB42600E474C3 /* Build configuration list for PBXNativeTarget "WatchTrumpTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7BD1C92B3CB42600E474C3 /* Debug */,
+				0B7BD1CA2B3CB42600E474C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7BD1CC2B3CB42600E474C3 /* Build configuration list for PBXNativeTarget "WatchTrumpTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7BD1CD2B3CB42600E474C3 /* Debug */,
+				0B7BD1CE2B3CB42600E474C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B7BD1AC2B3CB42300E474C3 /* Project object */;
+}
