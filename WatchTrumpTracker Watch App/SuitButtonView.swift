@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct SuitButtonView: View {
     
@@ -30,28 +31,14 @@ struct SuitButtonView: View {
                 suitType = thisButtonSuit
                 suitColor = thisButtonColor
                 
+                
             } label: {
                 Image(systemName: (thisButtonSuit))
                     .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                     .foregroundColor(thisButtonColor)
                     .opacity(0.7)
                     .padding(8.0)
-//                    .background(firstHand == true ? Color.white.opacity(opacity) : Color.white.opacity(0))
-//                    .cornerRadius(10.0)
-//                    .onReceive(timer) { time in
-//                        if firstHand == false {
-//                            opacity = 0
-//                            newGameCounter = 2
-//                            
-//                        } else if firstHand == true {
-//                            newGameFlashOnOff = newGameCounter % 2
-//                            opacity = 0.5 * Double(newGameFlashOnOff)
-//                            newGameCounter += 1
-//                        }
-//                        
-//                    }
-                    
-                
+
             } // end label
         }
     }
